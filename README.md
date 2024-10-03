@@ -42,6 +42,8 @@ Contributions are welcome! Please follow these steps:
    4. Make your changes and commit them.
    5. Push your changes to your forked repository.
    6. Open a pull request detailing your changes.
+   7. Make sure you every pr has maximum of 5 files changes.
+   8. Make sure you also add `.gitignore` files while making commits.
 
 ## Raising an Issue
 If you encounter any bugs or have feature requests, please create an issue in the repository. Provide detailed information to assist in addressing the problem.
