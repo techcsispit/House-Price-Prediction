@@ -22,16 +22,16 @@ This project is a **House Price Prediction Model** that utilizes **Python Flask*
    ```
 3. Start the Flask server:
    ```bash
-   python app.py
+   python server.py
    ```
 4. Navigate to the frontend folder and install dependencies:
    ```bash
    cd frontend
    npm install
    ```
-5. Start the React app:
+5. Start the React/Vite app:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Contributing
