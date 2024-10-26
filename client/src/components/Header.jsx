@@ -4,18 +4,22 @@ export default function Header(){
         <>
             <header className="p-4 bg-slate-900 text-gray-100">
                 <div className="container flex justify-between h-10 mx-auto">
-                    <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
+                    <a rel="noopener noreferrer" href="/" aria-label="Back to homepage" className="flex items-center p-2">
                         <img className="h-16" src={image} alt="Symbol"/>
                     </a>
                     <ul className="items-stretch hidden space-x-3 md:flex">
                         <li className="flex">
-                            <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Home</a>
+                            <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 dark:border-">Home</a>
+                        </li>
+                        
+                        <li className="flex">
+                            <a rel="noopener noreferrer" href="/predict" className="flex items-center px-4 -mb-1 dark:border-">Predict </a>
                         </li>
                         <li className="flex">
-                            <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">About</a>
+                            <a rel="noopener noreferrer" href="/about" className="flex items-center px-4 -mb-1 dark:border-">About</a>
                         </li>
                         <li className="flex">
-                            <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Github</a>
+                            <a rel="noopener noreferrer" href="https://github.com/techcsispit/House-Price-Prediction/" className="flex items-center px-4 -mb-1 dark:border-">Github</a>
                         </li>
                     </ul>
                     <button className="flex justify-end p-4 md:hidden">

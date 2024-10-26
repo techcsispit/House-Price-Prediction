@@ -1,13 +1,17 @@
 // src/components/PredictorPage.jsx
 import React from 'react';
 import Predictor from '../components/Predictor.jsx';
+import Header from '../components/Header.jsx';
 
 const PredictorPage = () => {
   return (
+    <><Header/>
     <div style={styles.page}>
+      
       <h2 style={styles.title}>House Price Prediction</h2>
       <Predictor />
     </div>
+    </>
   );
 };
 
